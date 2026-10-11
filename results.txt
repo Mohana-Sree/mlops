@@ -1,0 +1,26 @@
+MLOps CLA 1 - Prefect Workflow Without Docker
+
+Environment:
+- Ubuntu on WSL2
+- Conda environment: mlops-cla
+- Python: 3.11
+- Prefect: 3.8.8
+- scikit-learn: 1.9.1
+- pandas: 3.0.6
+
+Workflow:
+1. Load Iris dataset
+2. Preprocess and split data
+3. Train Logistic Regression model
+4. Evaluate model
+
+Results:
+- Total samples: 150
+- Training samples: 120
+- Testing samples: 30
+- Model accuracy: 93.33%
+- Prefect flow status: Completed
+- Python exit status: 0
+
+Note:
+A background SQLite telemetry warning appeared, but the workflow completed successfully.
